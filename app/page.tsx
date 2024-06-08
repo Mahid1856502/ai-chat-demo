@@ -1,9 +1,5 @@
-import { promises as fs } from "fs";
-import { z } from "zod";
-import path from "path";
 import Stats from "@/components/ui/stats";
 import { DataTable } from "@/components/ui/dataTable/data-table";
-import { taskSchema } from "./tasks/data/schema";
 import { columns } from "@/components/ui/dataTable/columns";
 
 // async function getTasks() {
